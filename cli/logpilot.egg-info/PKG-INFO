@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: logpilot
+Version: 0.1.0
+Summary: Real-time log monitoring with anomaly detection
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0.0
+Requires-Dist: websockets>=12.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: python-dotenv>=1.0.0

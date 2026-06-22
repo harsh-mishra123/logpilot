@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logpilot"
+version = "0.1.0"
+description = "Real-time log monitoring with anomaly detection"
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.0.0",
+    "websockets>=12.0",
+    "rich>=13.0.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.scripts]
+logpilot = "cli.cli:cli"
+
+[tool.setuptools]
+packages = ["cli", "cli.tailer", "cli.websocket", "cli.config", "cli.alert"]
+
+[tool.setuptools.package-dir]
+cli = "."
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cli*"]

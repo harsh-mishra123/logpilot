@@ -1,0 +1,7 @@
+pyproject.toml
+logpilot.egg-info/PKG-INFO
+logpilot.egg-info/SOURCES.txt
+logpilot.egg-info/dependency_links.txt
+logpilot.egg-info/entry_points.txt
+logpilot.egg-info/requires.txt
+logpilot.egg-info/top_level.txt

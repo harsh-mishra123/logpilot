@@ -1,0 +1,9 @@
+INFO: Application started
+INFO: Loading configuration
+ERROR: Database connection failed!
+INFO: Retrying connection...
+WARNING: High memory usage detected
+INFO: Connection established
+ERROR: API timeout occurred
+CRITICAL: Service unavailable!
+INFO: Shutting down
